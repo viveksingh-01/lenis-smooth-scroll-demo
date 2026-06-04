@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+.grid > div {
+  grid-column: var(--c);
+  grid-row: var(--r);
+}
