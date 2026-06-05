@@ -24,5 +24,14 @@ for (const item of gridItems) {
         end: "bottom top",
         scrub: true,
       },
+    })
+    .to(item, {
+      xPercent: xTransform,
+      scrollTrigger: {
+        trigger: item,
+        start: "top bottom",
+        end: "bottom top",
+        scrub: true,
+      },
     });
 }
