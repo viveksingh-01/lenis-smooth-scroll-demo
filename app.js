@@ -95,3 +95,28 @@ gridItems.forEach((item) => {
     },
   });
 });
+
+gsap.from("footer h5", {
+  y: 20,
+  opacity: 0,
+  duration: 0.8,
+  ease: "power3.out",
+  scrollTrigger: {
+    trigger: "footer",
+    start: "top 80%",
+  },
+});
+
+gsap.from("footer h1", {
+  y: 200,
+  opacity: 0,
+  stagger: 0.05,
+  duration: 2.4,
+  ease: "power4.out",
+  scrollTrigger: {
+    trigger: "footer",
+    start: "top 80%",
+    end: "bottom bottom",
+    scrub: true,
+  },
+});
