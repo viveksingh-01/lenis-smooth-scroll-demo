@@ -111,7 +111,7 @@ gsap.from("footer h1", {
   y: 200,
   opacity: 0,
   stagger: 0.05,
-  duration: 2.4,
+  duration: 1.2,
   ease: "power4.out",
   scrollTrigger: {
     trigger: "footer",
